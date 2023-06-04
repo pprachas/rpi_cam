@@ -1,10 +1,9 @@
 import cv2
 import time
-# open video0
-cap = cv2.VideoCapture(0)
+import utils.camera_controls as cam
 
-cap.set(cv2.CAP_PROP_FRAME_WIDTH, 800)
-cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 600)
+# open video0
+cap = cam.init_camera()
 
 while(True):
     # Capture frame-by-frame
