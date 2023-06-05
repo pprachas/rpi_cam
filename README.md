@@ -8,4 +8,8 @@ This repository contains code that is able to control an Arducam camera with the
 |[gpio_only_script](gpio_only_script)| scripts in this folder only sends GPIO outputs |
 |[utils](utils) | All the functions that are used in this repo. | 
 
+## V4L2
+
+The code uses v4l2 to control the camera. List of useful controls can be foud [here](https://manpages.ubuntu.com/manpages/bionic/man1/v4l2-ctl.1.html):
+https://manpages.ubuntu.com/manpages/bionic/man1/v4l2-ctl.1.html
 
